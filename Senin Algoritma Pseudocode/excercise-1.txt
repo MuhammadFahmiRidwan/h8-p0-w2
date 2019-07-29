@@ -54,9 +54,9 @@ Pseudocode
     WHILE 'siswa' <= 40
     DETERMINE 'kuku panjang' as 'true or false'
     IF 'kuku panjang' is 'true' THEN
-    DISPLAY 'kuku dipotong'
+    DO 'hukuman'
     ELSE 
-    DISPLAY 'tidak dipotong'
+    DO 'pujian'
 
     END IF
     END WHILE
