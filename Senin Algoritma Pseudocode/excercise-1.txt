@@ -43,10 +43,10 @@ Pseudocode
     END IF
 
 3.  STORE 'pakaian' with 0
-    WHILE 'pakaian' <20
+    WHILE 'pakaian' < 20
     ADD 'pakaian' by 1
 
-    DISPLAY 'pakaian penuh'
+    DISPLAY 'mesin cuci menyala'
 
 4.  STORE 'siswa' with 1
     STORE 'kuku panjang' as boolean value
