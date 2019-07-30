@@ -1,4 +1,4 @@
-Algpritma
+Algoritma
 1.  Tampung nilai 600 di variable massa
     Tampung nilai 2 di variable percepatan
     Jumlah variable A dan B
@@ -33,7 +33,7 @@ Pseudocode
     Display 'resultan_gaya'
 
 2.  STORE 'tahun 
-    IF 'tahun' MOD 4 EQUALS TO 0 AND MOD 100 EQUALS TO 1 THEN
+    IF 'tahun' MOD 4 EQUALS TO 0 AND 'tahun' MOD 100 EQUALS TO 1 THEN
     Display 'tahun kabisat'
     ELSE IF 'tahun' MOD 4 AND 'tahun' MOD 100 AND 'tahun' MOD 400 EQUALS TO 0 THEN
     DISPLAY 'tahun kabisat'
