@@ -35,7 +35,7 @@ Pseudocode
 2.  STORE 'tahun 
     IF 'tahun' MOD 4 EQUALS TO 0 AND MOD 100 EQUALS TO 1 THEN
     Display 'tahun kabisat'
-    ELSE IF 'tahun' MOD 4 AND MOD 100 AND MOD 400 EQUALS TO 0 THEN
+    ELSE IF 'tahun' MOD 4 AND 'tahun' MOD 100 AND 'tahun' MOD 400 EQUALS TO 0 THEN
     DISPLAY 'tahun kabisat'
     ELSE
     DISPLAY 'bukan tahun kabisat'
