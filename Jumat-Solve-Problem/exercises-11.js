@@ -1,18 +1,22 @@
 var kata;
 
 function balikKata(kata) {
-    var result = "";
-    var lengthresult = result.length;  
+var resultkata = "";
+var lengthresultkata = resultkata.length;
+var lengthkata = kata.length;
 
-    for(var i = 0; i <= kata.length; i--){
+for(var i = 1; i <= lengthkata; i--) {
+    if (lengthresultkata === 0) {
+        resultkata = kata.charAt(lengthkata - i)
+        lengthresultkata = 1
+    }
+    else {
+        resultKata = resultKata + kata.charAt(lengthKata - i)
+    }
+    return resultkata
+}
+}
 
-        if(lengthresult === 0) {
-            result = kata.charAt(kata.length - i)
-        }
-    }
-    return result
-    }
-  
   // TEST CASES
   console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
   console.log(balikKata('John Doe')); // eoD nhoJ
