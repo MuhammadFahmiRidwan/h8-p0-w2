@@ -10,8 +10,8 @@ function bandingkanAngka(angka1, angka2) {
     else {
         return false
     }
-  }
-  
+}
+
   // TEST CASES
   console.log(bandingkanAngka(5, 8)); // true
   console.log(bandingkanAngka(5, 3)); // false
