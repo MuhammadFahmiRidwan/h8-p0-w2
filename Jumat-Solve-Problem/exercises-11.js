@@ -1,20 +1,10 @@
-var kata;
-
 function balikKata(kata) {
-var resultkata = "";
-var lengthresultkata = resultkata.length;
-var lengthkata = kata.length;
-
-for(var i = 1; i <= lengthkata; i--) {
-    if (lengthresultkata === 0) {
-        resultkata = kata.charAt(lengthkata - i)
-        lengthresultkata = 1
-    }
-    else {
-        resultKata = resultKata + kata.charAt(lengthKata - i)
-    }
-    return resultkata
+var result = "";
+for (var i = kata.length -1; i >= 0; i--){
+    result += kata[i]
 }
+return result
+
 }
 
   // TEST CASES

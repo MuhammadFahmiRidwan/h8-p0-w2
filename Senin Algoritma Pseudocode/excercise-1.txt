@@ -18,6 +18,7 @@ Algoritma
 
 4.  Simpan variable murid dengan nilai 0
     Simpan variable kuku panjang
+    Periksa kuku murid satu per satu sampai 40 orang
     Jika kuku panjang bernilai 'true' maka 'kuku dipotong'
     Jika kuku panjang bernilai 'false' maka 'kuku tidak dipotong'
     
@@ -33,7 +34,7 @@ Pseudocode
     Display 'resultan_gaya'
 
 2.  STORE 'tahun 
-    IF 'tahun' MOD 4 EQUALS TO 0 AND 'tahun' MOD 100 EQUALS TO 1 THEN
+    IF 'tahun' MOD 4 EQUALS TO 0 AND 'tahun' MOD 100 NOT EQUALS TO 1 THEN
     Display 'tahun kabisat'
     ELSE IF 'tahun' MOD 4 AND 'tahun' MOD 100 AND 'tahun' MOD 400 EQUALS TO 0 THEN
     DISPLAY 'tahun kabisat'
@@ -52,6 +53,7 @@ Pseudocode
     STORE 'kuku panjang' as boolean value
 
     WHILE 'siswa' <= 40
+    Add value 'siswa' by 1 
     DETERMINE 'kuku panjang' as 'true or false'
     IF 'kuku panjang' is 'true' THEN
     DO 'hukuman'
