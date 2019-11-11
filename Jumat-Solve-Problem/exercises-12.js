@@ -1,11 +1,7 @@
-var jam;
-var menit;
-var detik;
-
 function konversiMenit(menit) {
-var resultTime;
-var resultMin;
-var resultSec;
+let resultTime = 0
+let resultMin = 0
+let resultSec = 0
 
 if (menit < 60) {
     resultMin = '0';
