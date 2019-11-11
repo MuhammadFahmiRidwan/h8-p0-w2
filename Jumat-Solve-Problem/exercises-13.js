@@ -1,22 +1,21 @@
-var str;
-
 function xo(str) {
-    var countx = 0;
-    var county = 0;
-    for(var i =0; i < str.length; i++) {
-        if(str[i] === "x") {
-            countx = countx + 1;
+    let resultX = ''
+    let resultY = ''
+
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === 'x') {
+            resultX = resultX + 1
         }
         else {
-            county = county + 1;
+            resultY = resultY + 1
         }
     }
-        if(countx === county) {
-            return true
-        }
-        else {
-            return false
-        }
+    if (resultX === resultY) {
+        return true
+    }
+    else { 
+        return false
+    }
   }
   
   // TEST CASES
