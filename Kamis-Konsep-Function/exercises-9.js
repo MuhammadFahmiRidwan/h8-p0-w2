@@ -1,6 +1,6 @@
 // Tugas 1
 function shoutOut() {
-    console.log("Halo Function")
+    return "Halo Function"
 }
 
 console.log(shoutOut()) // Menampilkan "Halo Function!" di console
@@ -35,7 +35,7 @@ var cname, cage, caddress, chobby;
 
 function processSentence(cname, cage, caddress, chobby) {
     var sentenceresult
-    console.log("Nama saya " + cname + " Umur saya " + cage + " Alamat saya di " + caddress + " dan saya punya hobby yaitu " + chobby)
+    return "Nama saya " + cname + " Umur saya " + cage + " Alamat saya di " + caddress + " dan saya punya hobby yaitu " + chobby
 }
 
 var fullSentence = processSentence(name,age,address,hobby);

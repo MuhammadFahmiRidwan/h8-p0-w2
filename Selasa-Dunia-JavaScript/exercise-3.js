@@ -1,10 +1,10 @@
 var nama = "Fahmi"
 var peran = "Penyihir"
 
-if (nama == "" && peran == "") {
+if (nama == false) {
     console.log("Nama harus diisi!")
 }
-else if (peran == "") {
+else if (peran == false) {
     console.log("Halo " + nama + ",Pilih peranmu untuk memulai game!")
 }
 else if (peran === "Ksatria") {
